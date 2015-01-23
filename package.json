@@ -1,0 +1,19 @@
+{
+  "name": "twitter-js",
+  "version": "1.0.0",
+  "description": "a cool tweet app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/Users/heatherbogus/Fullstack/twitter-js/.git/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.1",
+    "morgan": "^1.5.1"
+  }
+}
