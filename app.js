@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan(':method :url :status :response-time ms - :res[content-length]'));
 
 app.get('/', function (req, res) {
-  res.send('hello, world!')
+  res.send('hello, beautiful world!')
 });
 
 var port = 3000;
