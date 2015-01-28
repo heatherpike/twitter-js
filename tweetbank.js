@@ -2,8 +2,12 @@ var _ = require('underscore');
 
 var data = [];
 
+var id = 0;
+
 var add = function (name, text) {
-  data.push({ name: name, text: text });
+  data.push({ name: name, text: text, id: id });
+  //could also just set id to data.length instead of defining an id variable and incrementing
+  id++;
 };
 
 var list = function () {
@@ -36,4 +40,4 @@ for(var i=0; i<10; i++) {
 }
 
 //console.log(data);
-//console.log(find);
+//console.log(find('6'));
